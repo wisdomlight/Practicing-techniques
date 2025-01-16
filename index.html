@@ -12,7 +12,7 @@
         <h1>I am header</h1>
     </header>
     <!-- MAIN -->
-    <main class="main">
+    <main class="main" id="main">
         <!-- ASIDE LEFT-->
         <aside class="aside-left">
             <div class="aside-left-0"><h3>Aside Left</h3></div>
@@ -20,7 +20,7 @@
         <!-- SECTION -->
         <section>
             <div class="section section-0">
-                <h2>section</h2>
+                <h2>Section</h2>
             </div>
         </section>  
 
@@ -31,8 +31,23 @@
 
         </aside>
     </main>
+    <div class="modal" id="modal">
+        <!-- close button -->
+        <button class="close-btn" aria-label="close">&times;</button>
+        <!-- label for the input field -->
+        <label for="input-modal">Enter task:</label>
+        <!-- input field -->
+            <input 
+            type="text" 
+            id="input-modal" 
+            placeholder="Enter task">
+        <!-- submit button -->
+            <button class="submit" type="submit">Add task</button>
+        </div>
+
     <!-- FOOTER -->
     <footer class="footer"><h3>I am the footer</h3></footer>
+    <script src="./index.js"></script>
     
 </body>
 </html>

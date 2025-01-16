@@ -19,10 +19,12 @@ body {
     margin: auto;
 
 }
-.section {
-    /* flex-grow: 1; */
+section {
+    flex-grow: 1;
+    /* width: 60%; */
     border: 1px solid black;
     background-color: #ffd60a;;
+    text-align: center;
 }
 .aside-left {
     width: 20%;
@@ -36,6 +38,19 @@ body {
     font-weight: bold;
     color: #fdf0d5;
 }
+/* MODAL */
+.modal {
+    position: fixed;
+    display: none;
+    top: 30vh;
+    left: 39vw ;
+    width: 250px;
+    height: 200px;
+    background-color: whitesmoke;
+
+}
+
+/* FOOTER */
 .footer {
     height: 25vh;
     background-color: #000814;
